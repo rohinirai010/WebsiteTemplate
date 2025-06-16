@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap");
+
+/* main website custom styles */
+:root {
+  /* Standard Colors  */
+  --color-primary: #0328EE;    /* Primary Blue */
+  --color-white: #FFFFFF;      /* Pure White */
+  --color-dark: #010725;       /* Dark Navy */
+  --color-accent: #010D50;     /* Deep Blue */
+  
+
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  font-family: "DM Sans", sans-serif;
+}
