@@ -2,7 +2,7 @@ import React from "react";
 import middleStripMobileImage from "../images/middleStripMobileImage.svg";
 import { OutlineButton } from "../components/ButtonsComponent";
 
-const MiddleStrip = () => {
+const MiddleStripSection = () => {
   return (
     <div
       className="flex flex-col md:flex-row justify-between items-center px-6 sm:px-8 md:px-10 lg:px-20 xl:px-30 relative mt-20 md:mt-40 "
@@ -92,4 +92,4 @@ const MiddleStrip = () => {
   );
 };
 
-export default MiddleStrip;
+export default MiddleStripSection;

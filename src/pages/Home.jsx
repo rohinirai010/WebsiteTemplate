@@ -8,11 +8,11 @@ import HeroSection from '../partials/HeroSection'
 import MiddleSection from '../partials/MiddleSection'
 import Footer from '../partials/Footer'
 import RewardsSection from '../partials/RewardsSection'
-import MiddleStirp from '../partials/MiddleStrip'
 import ReviewSection from '../partials/ReviewSection'
 import GetStarted from '../partials/GetStarted'
 import LatestNews from '../partials/LatestNews'
 import DownloadApp from '../partials/DownloadApp'
+import MiddleStripSection from '../partials/MiddleStripSection'
 
 const Home = () => {  
   const fadeInUp = {
@@ -133,7 +133,7 @@ const Home = () => {
       </motion.div>
 
    
-        <MiddleStirp />
+        <MiddleStripSection />
      
 
       {/* Animated Review Section */}
