@@ -3,10 +3,9 @@ import mainLogo from "../images/mainWebsiteLogo.png";
 import instaIcon from "../images/instaIcon.svg"
 import facebookIcon from "../images/facebookIcon.svg"
 import linkedinIcon from "../images/linkedinIcon.svg"
-import appleIcon from "../images/appleIcon.svg"
+import appleIcon from "../images/AppleIcon.svg"
 import playStoreIcon from "../images/playStoreIcon.svg"
 
-import { PrimaryButton } from "../components/ButtonsComponent";
 
 const Footer = () => {
   return (
