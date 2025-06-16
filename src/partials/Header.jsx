@@ -93,7 +93,7 @@ const Header = () => {
           isMobileMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="bg-gray-900 px-4 py-6 space-y-4">
+        <div className=" px-4 py-6 space-y-4" style={{background: 'var(--color-accent)'}}>
           <nav className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <Link
@@ -102,8 +102,8 @@ const Header = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className={`text-white font-medium text-sm tracking-wide transition-all duration-200 text-left py-2 ${
                   getActiveLink() === link.name
-                    ? "border-l-4 border-white pl-4 bg-gray-800"
-                    : "hover:text-gray-300 hover:bg-gray-800 pl-4"
+                    ? "border-l-4 border-white pl-4 bg-blue-800"
+                    : "hover:text-gray-300 hover:bg-blue-900 pl-4"
                 }`}
               >
                 {link.name}
