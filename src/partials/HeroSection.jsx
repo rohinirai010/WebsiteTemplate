@@ -40,7 +40,7 @@ const HeroSection = () => {
 
         <div className={`flex flex-col gap-8 sm:gap-10 md:justify-center transition-all duration-1200 transform ${isVisible ? 'opacity-100 translate-x-0 scale-100' : 'opacity-0 -translate-x-20 scale-95'}`}>
           <div className={`transition-all duration-1000 transform ${textAnimation ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-10 scale-95'}`}>
-            <h1 className="text-[32px] sm:text-[35px] md:text-[30px] lg:text-[50px] leading-9 sm:leading-10 lg:leading-12 font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent animate-gradient-x hover:scale-105 transition-transform duration-300">
+            <h1 className="text-[36px] sm:text-[35px] md:text-[30px] lg:text-[50px] leading-10 lg:leading-12 font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent animate-gradient-x hover:scale-105 transition-transform duration-300">
               Buy, trade, and hold 350+ cryptocurrencies
             </h1>
             <p className={`text-[14px] sm:text-[16px] md:text-[14px] lg:text-[15px] mt-4 lg:mt-5 transition-all duration-800 delay-200 ${textAnimation ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-5'}`}>
@@ -79,7 +79,7 @@ const HeroSection = () => {
       </div>
       
       {/* featured section */}
-      <div className={`mt-12 md:mt-30 px-6 sm:px-8 md:px-10 lg:px-20 xl:px-30 transition-all duration-1500 transform ${featuredAnimation ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-20 scale-95'}`}>
+      <div className={`mt-16 md:mt-30 px-6 sm:px-8 md:px-10 lg:px-20 xl:px-30 transition-all duration-1500 transform ${featuredAnimation ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-20 scale-95'}`}>
         <h2 className={`text-center text-lg sm:text-xl md:text-[18px] mb-10 transition-all duration-1000 ${featuredAnimation ? 'opacity-100 ' : 'opacity-0'}`}>
           Finance flow has been featured on
         </h2>
@@ -96,7 +96,7 @@ const HeroSection = () => {
                 alt="" 
                 className="transition-all duration-500 hover:rotate-360 hover:scale-125 animate-pulse hover:animate-spin"
               />
-              <h2 className="text-xl font-semibold transition-all duration-300">Company</h2>
+              <h2 className="text-[16px] sm:text-xl font-semibold transition-all duration-300">Company</h2>
             </div>
           ))}
         </div>

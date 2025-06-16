@@ -26,7 +26,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="flex flex-row justify-between items-center px-6 sm:px-8 md:px-10 lg:px-20 xl:px-30 pt-4 sm:pt-6 pb-3 sm:pb-4">
+      <div className="flex flex-row justify-between items-center px-6 sm:px-8 md:px-10 lg:px-20 xl:px-30 pt-7 sm:pt-6 pb-3 sm:pb-4">
         <div className="flex flex-row items-center  md:gap-6 lg:gap-12">
           <Link to="/">
             <img
