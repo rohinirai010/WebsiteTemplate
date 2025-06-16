@@ -8,7 +8,7 @@ import HeroSection from '../partials/HeroSection'
 import MiddleSection from '../partials/MiddleSection'
 import Footer from '../partials/Footer'
 import RewardsSection from '../partials/RewardsSection'
-import MiddleStirp from '../partials/middleStrip'
+import MiddleStrip from '../partials/MiddleStrip'
 import ReviewSection from '../partials/ReviewSection'
 import GetStarted from '../partials/GetStarted'
 import LatestNews from '../partials/LatestNews'
@@ -132,15 +132,9 @@ const Home = () => {
         <RewardsSection />
       </motion.div>
 
-      {/* Animated Middle Strip */}
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
-        variants={fadeInRight}
-      >
-        <MiddleStirp />
-      </motion.div>
+   
+        <MiddleStrip />
+     
 
       {/* Animated Review Section */}
       <motion.div
