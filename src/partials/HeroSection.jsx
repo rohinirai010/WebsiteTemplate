@@ -40,7 +40,7 @@ const HeroSection = () => {
 
         <div className={`flex flex-col gap-8 sm:gap-10 md:justify-center transition-all duration-1200 transform ${isVisible ? 'opacity-100 translate-x-0 scale-100' : 'opacity-0 -translate-x-20 scale-95'}`}>
           <div className={`transition-all duration-1000 transform ${textAnimation ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-10 scale-95'}`}>
-            <h1 className="text-[30px] sm:text-[35px] md:text-[30px] lg:text-[50px] leading-9 sm:leading-10 lg:leading-12 font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent animate-gradient-x hover:scale-105 transition-transform duration-300">
+            <h1 className="text-[32px] sm:text-[35px] md:text-[30px] lg:text-[50px] leading-9 sm:leading-10 lg:leading-12 font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent animate-gradient-x hover:scale-105 transition-transform duration-300">
               Buy, trade, and hold 350+ cryptocurrencies
             </h1>
             <p className={`text-[14px] sm:text-[16px] md:text-[14px] lg:text-[15px] mt-4 lg:mt-5 transition-all duration-800 delay-200 ${textAnimation ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-5'}`}>
@@ -74,7 +74,7 @@ const HeroSection = () => {
         <img 
           src={headerResLaptop} 
           alt="" 
-          className={`block md:hidden w-[35rem] sm:w-[40rem] mt-10 transition-all duration-1500 transform ${imageAnimation ? 'opacity-100 translate-x-0 scale-100 hover:scale-105' : 'opacity-0 translate-x-20 scale-75'} animate-pulse`}
+          className={`block md:hidden w-[35rem] sm:w-[40rem] mt-16 transition-all duration-1500 transform ${imageAnimation ? 'opacity-100 translate-x-0 scale-100 hover:scale-105' : 'opacity-0 translate-x-20 scale-75'} animate-pulse`}
         />
       </div>
       
