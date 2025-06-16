@@ -1,5 +1,5 @@
 import React from "react";
-import mainLogo from "../images/MainWebsiteLogo.png";
+import mainLogo from "../images/mainWebsiteLogo.png";
 import instaIcon from "../images/instaIcon.svg"
 import facebookIcon from "../images/facebookIcon.svg"
 import linkedinIcon from "../images/linkedinIcon.svg"

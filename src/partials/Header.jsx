@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import mainLogo from "../images/MainWebsiteLogo.png";
+import mainLogo from "../images/mainWebsiteLogo.png";
 import { PrimaryButton } from "../components/ButtonsComponent";
 
 const Header = () => {
