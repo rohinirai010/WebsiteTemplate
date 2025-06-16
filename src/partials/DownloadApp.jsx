@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import phoneImg1 from "../images/downloadAppImg1.svg";
 import phoneImg2 from "../images/downloadAppImg2.svg";
-import appleIcon from "../images/appleIcon.svg";
+import appleIcon from "../images/AppleIcon.svg";
 import playStoreIcon from "../images/playStoreIcon.svg";
 
 const DownloadApp = () => {
