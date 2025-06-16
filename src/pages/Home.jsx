@@ -8,7 +8,7 @@ import HeroSection from '../partials/HeroSection'
 import MiddleSection from '../partials/MiddleSection'
 import Footer from '../partials/Footer'
 import RewardsSection from '../partials/RewardsSection'
-import MiddleStrip from '../partials/MiddleStrip'
+import MiddleStirp from '../partials/MiddleStrip'
 import ReviewSection from '../partials/ReviewSection'
 import GetStarted from '../partials/GetStarted'
 import LatestNews from '../partials/LatestNews'
@@ -133,7 +133,7 @@ const Home = () => {
       </motion.div>
 
    
-        <MiddleStrip />
+        <MiddleStirp />
      
 
       {/* Animated Review Section */}
